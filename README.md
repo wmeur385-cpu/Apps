@@ -4,7 +4,7 @@ O [Serena](https://github.com/oraios/serena) dá a um agente um "IDE" para códi
 
 Os dados de uma empresa não têm. O mesmo cliente aparece de sete jeitos em seis sistemas, com CNPJ digitado errado, endereço antigo no CRM e o novo só num e-mail. Este repositório constrói essa camada para entidades de negócio e mede quanto ela ajuda um agente.
 
-**Página com tudo rodando no navegador:** `dossie_entidades.html` (offline, um arquivo só).
+**Página com tudo rodando no navegador:** [wmeur385-cpu.github.io/Apps](https://wmeur385-cpu.github.io/Apps/) — é o arquivo [`dossie_entidades.html`](dossie_entidades.html) deste repositório, que também roda offline, sem servidor. Para refazer: `node montar_pagina.js`.
 
 ## O que tem aqui
 

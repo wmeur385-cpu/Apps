@@ -26,6 +26,6 @@ function extras() {
     laudo_html: md(fs.readFileSync('resultados/laudo_generico.md', 'utf8')), laudo_segundos: laudo.segundos,
     bancada: { camada: require('./resultados/bancada_camada.json'), bm25: require('./resultados/bancada_bm25.json'), vazio: require('./resultados/bancada_vazio.json') } };
 }
-fs.mkdirSync('/mnt/user-data/outputs', { recursive: true });
-fs.writeFileSync('/mnt/user-data/outputs/dossie_entidades.html', h);
+const destino = process.argv[2] || 'dossie_entidades.html'; // na raiz do repositório; o GitHub Pages serve daqui
+fs.writeFileSync(destino, h);
 console.log('página:', (h.length / 1024).toFixed(0), 'KB');
