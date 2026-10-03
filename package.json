@@ -1,0 +1,9 @@
+{
+  "name": "dossie-entidades",
+  "version": "1.0.0",
+  "description": "Camada de entidades no estilo Serena para dados de negócio: resolução, dossiê, divergências e servidor MCP",
+  "main": "nucleo.js",
+  "scripts": { "test": "node testes.js && node testes_laudo.js && node teste_permissoes.js && node bancada/teste_bancada.js", "laudo": "node laudo.js dados", "bancada": "node bancada/bancada.js --sistema bancada/adaptadores/camada.js", "dados": "node gerar_dados.js", "bench": "node benchmark.js 20", "mcp": "node servidor_mcp.js" },
+  "license": "MIT",
+  "dependencies": { "@modelcontextprotocol/sdk": "^1.31.0", "js-tiktoken": "^1.0.21", "zod": "^4.6.5" }
+}
