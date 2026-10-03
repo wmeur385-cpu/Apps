@@ -1,0 +1,55 @@
+{
+ "registros": 4518,
+ "por_fonte": {
+  "crm": 264,
+  "erp": 251,
+  "nf": 2832,
+  "contrato": 210,
+  "aditivo": 39,
+  "email": 447,
+  "chamado": 475
+ },
+ "entidades": 236,
+ "cnpj": {
+  "validos": 640,
+  "invalidos": 13,
+  "vazios": 72,
+  "corrigidos": 13,
+  "formatos": [
+   "99.999.999/9999-99",
+   "99999999999999"
+  ]
+ },
+ "duplicatas": {
+  "crm": 28,
+  "erp": 15
+ },
+ "erp_importado_do_crm": 157,
+ "emails": {
+  "total": 264,
+  "genericos": 83
+ },
+ "telefones_informados": 264,
+ "enderecos": {
+  "formatos_distintos": 51,
+  "clientes_com_endereco_divergente": 72,
+  "crm_ou_erp_desatualizados": 72
+ },
+ "grupos_matriz_filial": 6,
+ "nomes_que_servem_para_mais_de_um_cliente": 18,
+ "sem_contrato": 26,
+ "faturado_diverge_do_contrato": 32,
+ "mencoes": {
+  "total": 922,
+  "ligadas": 895,
+  "pendentes": 27
+ },
+ "chaves_que_ligaram": {
+  "mesmo CNPJ válido": 405,
+  "CNPJ corrigido": 13,
+  "mesmo e-mail": 4,
+  "mesmo telefone e nome parecido": 8,
+  "mesmo endereço e nome parecido": 55,
+  "nome quase idêntico na mesma cidade": 4
+ }
+}

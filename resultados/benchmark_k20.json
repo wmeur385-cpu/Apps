@@ -1,0 +1,73 @@
+{
+ "k": 20,
+ "perguntas": 539,
+ "documentos": 4479,
+ "tokens_base_inteira": 270409,
+ "claras": {
+  "n": 420,
+  "geral": {
+   "n": 420,
+   "A_evidencia_completa": 0.4595238095238095,
+   "B_evidencia_completa": 0.9714285714285714,
+   "A_tokens_mediana": 1648,
+   "B_tokens_mediana": 501,
+   "B_resposta_certa": 0.9476190476190476,
+   "B_entidade_errada": 9,
+   "B_empate_sinalizado": 16,
+   "B_entidade_errada_sem_aviso": 0
+  },
+  "por_tipo": {
+   "endereço atual (cliente que mudou)": {
+    "n": 53,
+    "A_evidencia_completa": 0.6226415094339622,
+    "B_evidencia_completa": 0.9622641509433962,
+    "A_tokens_mediana": 2176,
+    "B_tokens_mediana": 540,
+    "B_resposta_certa": 0.9811320754716981,
+    "B_entidade_errada": 1,
+    "B_empate_sinalizado": 3,
+    "B_entidade_errada_sem_aviso": 0
+   },
+   "chamados do cliente": {
+    "n": 154,
+    "A_evidencia_completa": 0.5714285714285714,
+    "B_evidencia_completa": 0.9675324675324676,
+    "A_tokens_mediana": 1459,
+    "B_tokens_mediana": 299,
+    "B_resposta_certa": 0.8961038961038961,
+    "B_entidade_errada": 3,
+    "B_empate_sinalizado": 5,
+    "B_entidade_errada_sem_aviso": 0
+   },
+   "faturado diverge do contrato?": {
+    "n": 164,
+    "A_evidencia_completa": 0.14634146341463414,
+    "B_evidencia_completa": 0.9817073170731707,
+    "A_tokens_mediana": 3305,
+    "B_tokens_mediana": 818,
+    "B_resposta_certa": 0.9817073170731707,
+    "B_entidade_errada": 3,
+    "B_empate_sinalizado": 6,
+    "B_entidade_errada_sem_aviso": 0
+   },
+   "total em atraso": {
+    "n": 49,
+    "A_evidencia_completa": 0.9795918367346939,
+    "B_evidencia_completa": 0.9591836734693877,
+    "A_tokens_mediana": 1320,
+    "B_tokens_mediana": 184,
+    "B_resposta_certa": 0.9591836734693877,
+    "B_entidade_errada": 2,
+    "B_empate_sinalizado": 2,
+    "B_entidade_errada_sem_aviso": 0
+   }
+  }
+ },
+ "ambiguas": {
+  "n": 119,
+  "camada_sinalizou": 114,
+  "camada_acertou_mesmo_assim": 0,
+  "camada_errou_sem_aviso": 5
+ },
+ "tokenizador": "cl100k_base (aproximação; o tokenizador do Claude conta diferente, a razão entre A e B é o que importa)"
+}

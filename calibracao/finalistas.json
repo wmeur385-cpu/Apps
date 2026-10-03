@@ -1,0 +1,42 @@
+[
+ {
+  "nome": "RSM, ótimo restrito",
+  "params": {
+   "grupo": "aprende",
+   "margem": 0.096,
+   "limiarContato": 0.54,
+   "limiarMencaoNome": 0.688,
+   "guardaFone": 0.35
+  }
+ },
+ {
+  "nome": "Otimização bayesiana 1",
+  "params": {
+   "grupo": "aprende",
+   "margem": 0.04,
+   "limiarContato": 0.5,
+   "limiarMencaoNome": 0.64,
+   "guardaFone": 0.25
+  }
+ },
+ {
+  "nome": "Otimização bayesiana 2",
+  "params": {
+   "grupo": "aprende",
+   "margem": 0.12,
+   "limiarContato": 0.5,
+   "limiarMencaoNome": 0.8,
+   "guardaFone": 0.45
+  }
+ },
+ {
+  "nome": "Otimização bayesiana 3",
+  "params": {
+   "grupo": "aprende",
+   "margem": 0.12,
+   "limiarContato": 0.5,
+   "limiarMencaoNome": 0.8,
+   "guardaFone": 0.25
+  }
+ }
+]

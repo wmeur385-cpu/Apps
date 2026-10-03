@@ -1,0 +1,91 @@
+{
+ "base": {
+  "y1": 14.28,
+  "pend": 29.08,
+  "f1": 0.9854312189035822
+ },
+ "LIM_P": 31.988,
+ "LIM_F": 0.9834312189035822,
+ "finalistas": [
+  {
+   "i": 1,
+   "nome": "RSM, \u00f3timo restrito",
+   "params": {
+    "grupo": "aprende",
+    "margem": 0.096,
+    "limiarContato": 0.54,
+    "limiarMencaoNome": 0.688,
+    "guardaFone": 0.35
+   },
+   "y1": 2.5,
+   "pend": 34.08,
+   "f1": 0.9911980502025746,
+   "viavel": false,
+   "reducao": 0.8249299719887955
+  },
+  {
+   "i": 2,
+   "nome": "Otimiza\u00e7\u00e3o bayesiana 1",
+   "params": {
+    "grupo": "aprende",
+    "margem": 0.04,
+    "limiarContato": 0.5,
+    "limiarMencaoNome": 0.64,
+    "guardaFone": 0.25
+   },
+   "y1": 3.12,
+   "pend": 31.04,
+   "f1": 0.9916062117636676,
+   "viavel": true,
+   "reducao": 0.7815126050420168
+  },
+  {
+   "i": 3,
+   "nome": "Otimiza\u00e7\u00e3o bayesiana 2",
+   "params": {
+    "grupo": "aprende",
+    "margem": 0.12,
+    "limiarContato": 0.5,
+    "limiarMencaoNome": 0.8,
+    "guardaFone": 0.45
+   },
+   "y1": 3.1,
+   "pend": 32.16,
+   "f1": 0.9913411024481031,
+   "viavel": false,
+   "reducao": 0.7829131652661064
+  },
+  {
+   "i": 4,
+   "nome": "Otimiza\u00e7\u00e3o bayesiana 3",
+   "params": {
+    "grupo": "aprende",
+    "margem": 0.12,
+    "limiarContato": 0.5,
+    "limiarMencaoNome": 0.8,
+    "guardaFone": 0.25
+   },
+   "y1": 3.1,
+   "pend": 32.16,
+   "f1": 0.991356159762927,
+   "viavel": false,
+   "reducao": 0.7829131652661064
+  }
+ ],
+ "escolhido": {
+  "i": 2,
+  "nome": "Otimiza\u00e7\u00e3o bayesiana 1",
+  "params": {
+   "grupo": "aprende",
+   "margem": 0.04,
+   "limiarContato": 0.5,
+   "limiarMencaoNome": 0.64,
+   "guardaFone": 0.25
+  },
+  "y1": 3.12,
+  "pend": 31.04,
+  "f1": 0.9916062117636676,
+  "viavel": true,
+  "reducao": 0.7815126050420168
+ }
+}

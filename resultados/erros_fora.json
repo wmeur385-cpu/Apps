@@ -1,0 +1,14 @@
+{
+ "erros": 84,
+ "mesmo_grupo": 71,
+ "cadastros_separados": 24,
+ "cadastros_mesmo_grupo": 24,
+ "por_motivo": {
+  "contato conhecido no CRM + nome da empresa": 11,
+  "e-mail do remetente já conhecido": 34,
+  "domínio corporativo do remetente": 3,
+  "cadastro": 24,
+  "telefone da assinatura": 4,
+  "nome parecido": 8
+ }
+}

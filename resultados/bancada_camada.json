@@ -1,0 +1,186 @@
+{
+ "sistema": "camada de entidades (nucleo.js 1.2)",
+ "sementes": [
+  9101,
+  9102,
+  9103
+ ],
+ "segundos": 8.487,
+ "tokenizador": "cl100k_base (aproximação)",
+ "por_semente": [
+  {
+   "semente": 9101,
+   "perguntas": 516,
+   "claras": {
+    "geral": {
+     "n": 389,
+     "evidencia_completa": 98.2,
+     "tokens_mediana": 504,
+     "responde_sozinho": 94.3
+    },
+    "por_tipo": {
+     "total em atraso": {
+      "n": 44,
+      "evidencia_completa": 97.7,
+      "tokens_mediana": 186,
+      "responde_sozinho": 97.7
+     },
+     "faturado diverge do contrato?": {
+      "n": 159,
+      "evidencia_completa": 99.4,
+      "tokens_mediana": 816,
+      "responde_sozinho": 99.4
+     },
+     "chamados do cliente": {
+      "n": 143,
+      "evidencia_completa": 96.5,
+      "tokens_mediana": 330,
+      "responde_sozinho": 86
+     },
+     "endereço atual (cliente que mudou)": {
+      "n": 43,
+      "evidencia_completa": 100,
+      "tokens_mediana": 550,
+      "responde_sozinho": 100
+     }
+    }
+   },
+   "ambiguas": {
+    "n": 127,
+    "avisou": 111,
+    "sem_aviso": 16,
+    "sem_aviso_e_errou": 8
+   },
+   "armadilhas": {
+    "n": 6,
+    "pegou": 6,
+    "caiu": []
+   }
+  },
+  {
+   "semente": 9102,
+   "perguntas": 532,
+   "claras": {
+    "geral": {
+     "n": 385,
+     "evidencia_completa": 97.7,
+     "tokens_mediana": 505,
+     "responde_sozinho": 96.4
+    },
+    "por_tipo": {
+     "endereço atual (cliente que mudou)": {
+      "n": 66,
+      "evidencia_completa": 97,
+      "tokens_mediana": 520,
+      "responde_sozinho": 97
+     },
+     "faturado diverge do contrato?": {
+      "n": 149,
+      "evidencia_completa": 98.7,
+      "tokens_mediana": 815,
+      "responde_sozinho": 100
+     },
+     "total em atraso": {
+      "n": 37,
+      "evidencia_completa": 100,
+      "tokens_mediana": 176,
+      "responde_sozinho": 100
+     },
+     "chamados do cliente": {
+      "n": 133,
+      "evidencia_completa": 96.2,
+      "tokens_mediana": 317,
+      "responde_sozinho": 91
+     }
+    }
+   },
+   "ambiguas": {
+    "n": 147,
+    "avisou": 145,
+    "sem_aviso": 2,
+    "sem_aviso_e_errou": 0
+   },
+   "armadilhas": {
+    "n": 6,
+    "pegou": 6,
+    "caiu": []
+   }
+  },
+  {
+   "semente": 9103,
+   "perguntas": 538,
+   "claras": {
+    "geral": {
+     "n": 422,
+     "evidencia_completa": 96.4,
+     "tokens_mediana": 496,
+     "responde_sozinho": 95
+    },
+    "por_tipo": {
+     "total em atraso": {
+      "n": 47,
+      "evidencia_completa": 97.9,
+      "tokens_mediana": 182,
+      "responde_sozinho": 97.9
+     },
+     "chamados do cliente": {
+      "n": 154,
+      "evidencia_completa": 94.8,
+      "tokens_mediana": 281,
+      "responde_sozinho": 89
+     },
+     "faturado diverge do contrato?": {
+      "n": 156,
+      "evidencia_completa": 96.8,
+      "tokens_mediana": 816,
+      "responde_sozinho": 98.7
+     },
+     "endereço atual (cliente que mudou)": {
+      "n": 65,
+      "evidencia_completa": 98.5,
+      "tokens_mediana": 547,
+      "responde_sozinho": 98.5
+     }
+    }
+   },
+   "ambiguas": {
+    "n": 116,
+    "avisou": 103,
+    "sem_aviso": 13,
+    "sem_aviso_e_errou": 2
+   },
+   "armadilhas": {
+    "n": 6,
+    "pegou": 6,
+    "caiu": []
+   }
+  }
+ ],
+ "faixa": {
+  "evidencia_completa": {
+   "min": 96.4,
+   "mediana": 97.7,
+   "max": 98.2
+  },
+  "tokens_mediana": {
+   "min": 496,
+   "mediana": 504,
+   "max": 505
+  },
+  "responde_sozinho": {
+   "min": 94.3,
+   "mediana": 95,
+   "max": 96.4
+  },
+  "ambiguas_sem_aviso": {
+   "min": 2,
+   "mediana": 13,
+   "max": 16
+  },
+  "armadilhas_pegou": {
+   "min": 6,
+   "mediana": 6,
+   "max": 6
+  }
+ }
+}

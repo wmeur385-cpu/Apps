@@ -1,0 +1,203 @@
+{
+ "sistema": "busca BM25 top-20",
+ "sementes": [
+  9101,
+  9102,
+  9103
+ ],
+ "segundos": 9.791,
+ "tokenizador": "cl100k_base (aproximação)",
+ "por_semente": [
+  {
+   "semente": 9101,
+   "perguntas": 516,
+   "claras": {
+    "geral": {
+     "n": 389,
+     "evidencia_completa": 42.2,
+     "tokens_mediana": 1675,
+     "responde_sozinho": null
+    },
+    "por_tipo": {
+     "total em atraso": {
+      "n": 44,
+      "evidencia_completa": 93.2,
+      "tokens_mediana": 1246,
+      "responde_sozinho": null
+     },
+     "faturado diverge do contrato?": {
+      "n": 159,
+      "evidencia_completa": 15.7,
+      "tokens_mediana": 3300,
+      "responde_sozinho": null
+     },
+     "chamados do cliente": {
+      "n": 143,
+      "evidencia_completa": 47.6,
+      "tokens_mediana": 1487,
+      "responde_sozinho": null
+     },
+     "endereço atual (cliente que mudou)": {
+      "n": 43,
+      "evidencia_completa": 69.8,
+      "tokens_mediana": 1568,
+      "responde_sozinho": null
+     }
+    }
+   },
+   "ambiguas": {
+    "n": 127,
+    "avisou": 0,
+    "sem_aviso": 127,
+    "sem_aviso_e_errou": 0
+   },
+   "armadilhas": {
+    "n": 6,
+    "pegou": 0,
+    "caiu": [
+     "cliente inexistente: Transportadora Fantasma do Norte",
+     "cliente inexistente: Clínica Veterinária Inexistente",
+     "cliente inexistente: Posto Miragem Combustíveis",
+     "matriz/filial sem cidade: acougue vitoria",
+     "matriz/filial sem cidade: padaria monte alegre",
+     "matriz/filial sem cidade: supermercado santa rita"
+    ]
+   }
+  },
+  {
+   "semente": 9102,
+   "perguntas": 532,
+   "claras": {
+    "geral": {
+     "n": 385,
+     "evidencia_completa": 44.9,
+     "tokens_mediana": 1677,
+     "responde_sozinho": null
+    },
+    "por_tipo": {
+     "endereço atual (cliente que mudou)": {
+      "n": 66,
+      "evidencia_completa": 74.2,
+      "tokens_mediana": 1526,
+      "responde_sozinho": null
+     },
+     "faturado diverge do contrato?": {
+      "n": 149,
+      "evidencia_completa": 13.4,
+      "tokens_mediana": 3301,
+      "responde_sozinho": null
+     },
+     "total em atraso": {
+      "n": 37,
+      "evidencia_completa": 94.6,
+      "tokens_mediana": 1327,
+      "responde_sozinho": null
+     },
+     "chamados do cliente": {
+      "n": 133,
+      "evidencia_completa": 51.9,
+      "tokens_mediana": 1477,
+      "responde_sozinho": null
+     }
+    }
+   },
+   "ambiguas": {
+    "n": 147,
+    "avisou": 0,
+    "sem_aviso": 147,
+    "sem_aviso_e_errou": 0
+   },
+   "armadilhas": {
+    "n": 6,
+    "pegou": 0,
+    "caiu": [
+     "cliente inexistente: Transportadora Fantasma do Norte",
+     "cliente inexistente: Clínica Veterinária Inexistente",
+     "cliente inexistente: Posto Miragem Combustíveis",
+     "matriz/filial sem cidade: acougue primavera",
+     "matriz/filial sem cidade: acougue merces",
+     "matriz/filial sem cidade: emporio boa esperanca"
+    ]
+   }
+  },
+  {
+   "semente": 9103,
+   "perguntas": 538,
+   "claras": {
+    "geral": {
+     "n": 422,
+     "evidencia_completa": 49.1,
+     "tokens_mediana": 1647,
+     "responde_sozinho": null
+    },
+    "por_tipo": {
+     "total em atraso": {
+      "n": 47,
+      "evidencia_completa": 93.6,
+      "tokens_mediana": 1288,
+      "responde_sozinho": null
+     },
+     "chamados do cliente": {
+      "n": 154,
+      "evidencia_completa": 59.1,
+      "tokens_mediana": 1540,
+      "responde_sozinho": null
+     },
+     "faturado diverge do contrato?": {
+      "n": 156,
+      "evidencia_completa": 12.2,
+      "tokens_mediana": 3356,
+      "responde_sozinho": null
+     },
+     "endereço atual (cliente que mudou)": {
+      "n": 65,
+      "evidencia_completa": 81.5,
+      "tokens_mediana": 1685,
+      "responde_sozinho": null
+     }
+    }
+   },
+   "ambiguas": {
+    "n": 116,
+    "avisou": 0,
+    "sem_aviso": 116,
+    "sem_aviso_e_errou": 0
+   },
+   "armadilhas": {
+    "n": 6,
+    "pegou": 0,
+    "caiu": [
+     "cliente inexistente: Transportadora Fantasma do Norte",
+     "cliente inexistente: Clínica Veterinária Inexistente",
+     "cliente inexistente: Posto Miragem Combustíveis",
+     "matriz/filial sem cidade: padaria vitoria",
+     "matriz/filial sem cidade: conveniencia tres marias",
+     "matriz/filial sem cidade: restaurante serra verde"
+    ]
+   }
+  }
+ ],
+ "faixa": {
+  "evidencia_completa": {
+   "min": 42.2,
+   "mediana": 44.9,
+   "max": 49.1
+  },
+  "tokens_mediana": {
+   "min": 1647,
+   "mediana": 1675,
+   "max": 1677
+  },
+  "responde_sozinho": null,
+  "ambiguas_sem_aviso": {
+   "min": 116,
+   "mediana": 127,
+   "max": 147
+  },
+  "armadilhas_pegou": {
+   "min": 0,
+   "mediana": 0,
+   "max": 0
+  }
+ }
+}

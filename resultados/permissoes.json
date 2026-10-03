@@ -1,0 +1,12 @@
+{
+ "violacoes": [],
+ "checagens": 3776,
+ "tokens_testados": 131932,
+ "entidades": 3776,
+ "por_criterio": {
+  "A": 0,
+  "B": 0,
+  "C": 0
+ },
+ "resumo": "3776 checagens (4 bases × 4 perfis × entidades), 131932 tokens exclusivos de fontes proibidas procurados nas saídas, 0 violações"
+}

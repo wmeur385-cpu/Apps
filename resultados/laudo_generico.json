@@ -1,0 +1,493 @@
+{
+ "pasta": "dados",
+ "gerado_em": "2026-10-02T19:44:52.506Z",
+ "fontes": [
+  {
+   "nome": "chamados.jsonl",
+   "tipo": "tabela",
+   "formato": "JSON por linha",
+   "registros": 475,
+   "colunas": {
+    "id": {
+     "tipo": "id",
+     "preenchida": 100,
+     "distintos": 475,
+     "repetidos": 0
+    },
+    "aberto_em": {
+     "tipo": "data",
+     "preenchida": 100,
+     "distintos": 297
+    },
+    "canal": {
+     "tipo": "categoria",
+     "preenchida": 100,
+     "distintos": 3,
+     "valores": [
+      "whatsapp",
+      "portal",
+      "telefone"
+     ]
+    },
+    "solicitante": {
+     "tipo": "outro",
+     "preenchida": 100,
+     "distintos": 318
+    },
+    "empresa_digitada": {
+     "tipo": "nome",
+     "preenchida": 100,
+     "distintos": 389
+    },
+    "assunto": {
+     "tipo": "categoria",
+     "preenchida": 100,
+     "distintos": 6,
+     "valores": [
+      "Produto avariado na entrega",
+      "Cobrança em duplicidade",
+      "Dúvida sobre boleto",
+      "Atraso na entrega",
+      "Troca de mercadoria",
+      "Entrega no endereço antigo"
+     ]
+    },
+    "descricao": {
+     "tipo": "outro",
+     "preenchida": 100,
+     "distintos": 24
+    }
+   }
+  },
+  {
+   "nome": "contratos/",
+   "tipo": "documentos",
+   "formato": "texto",
+   "documentos": 210,
+   "caracteres": 86836,
+   "cnpjs_citados": 210,
+   "cnpjs_validos": 210,
+   "emails_citados": 0,
+   "telefones_citados": 0
+  },
+  {
+   "nome": "crm.csv",
+   "tipo": "tabela",
+   "formato": "CSV separado por \";\"",
+   "registros": 264,
+   "colunas": {
+    "id_crm": {
+     "tipo": "id",
+     "preenchida": 100,
+     "distintos": 264,
+     "repetidos": 0
+    },
+    "empresa": {
+     "tipo": "nome",
+     "preenchida": 100,
+     "distintos": 256,
+     "homonimos": 16
+    },
+    "cnpj": {
+     "tipo": "cnpj",
+     "preenchida": 81.1,
+     "distintos": 201,
+     "validos": 201,
+     "dv_errado": 13,
+     "vazios": 50,
+     "formatos": [
+      "99.999.999/9999-99",
+      "99999999999999"
+     ],
+     "repetidos": 15,
+     "grupos_matriz_filial": 6
+    },
+    "email": {
+     "tipo": "email",
+     "preenchida": 100,
+     "distintos": 250,
+     "genericos": 83,
+     "dominios": 161,
+     "repetidos": 14
+    },
+    "telefone": {
+     "tipo": "telefone",
+     "preenchida": 100,
+     "distintos": 254,
+     "formatos": [
+      "99 9999 9999",
+      "(99) 9999-9999",
+      "9999999999",
+      "+99 99 99999999"
+     ],
+     "repetidos": 28
+    },
+    "contato": {
+     "tipo": "nome",
+     "preenchida": 100,
+     "distintos": 180,
+     "homonimos": 45
+    },
+    "endereco": {
+     "tipo": "endereco",
+     "preenchida": 100,
+     "distintos": 261,
+     "formatos": 38,
+     "maiusc_e_minusc": true
+    },
+    "endereco_atualizado_em": {
+     "tipo": "data",
+     "preenchida": 100,
+     "distintos": 153
+    },
+    "vendedor": {
+     "tipo": "categoria",
+     "preenchida": 100,
+     "distintos": 4,
+     "valores": [
+      "Marcos",
+      "Tiago",
+      "Rafaela",
+      "Patrícia"
+     ]
+    }
+   }
+  },
+  {
+   "nome": "emails.jsonl",
+   "tipo": "tabela",
+   "formato": "JSON por linha",
+   "registros": 447,
+   "colunas": {
+    "id": {
+     "tipo": "id",
+     "preenchida": 100,
+     "distintos": 447,
+     "repetidos": 0
+    },
+    "de": {
+     "tipo": "email",
+     "preenchida": 100,
+     "distintos": 269,
+     "genericos": 147,
+     "dominios": 131,
+     "repetidos": 178
+    },
+    "data": {
+     "tipo": "data",
+     "preenchida": 100,
+     "distintos": 300
+    },
+    "assunto": {
+     "tipo": "outro",
+     "preenchida": 100,
+     "distintos": 141
+    },
+    "corpo": {
+     "tipo": "texto",
+     "preenchida": 100,
+     "distintos": 447
+    }
+   }
+  },
+  {
+   "nome": "erp_clientes.csv",
+   "tipo": "tabela",
+   "formato": "CSV separado por \";\"",
+   "registros": 251,
+   "colunas": {
+    "cod_erp": {
+     "tipo": "id",
+     "preenchida": 100,
+     "distintos": 251,
+     "repetidos": 0
+    },
+    "razao_social": {
+     "tipo": "nome",
+     "preenchida": 100,
+     "distintos": 230,
+     "homonimos": 18
+    },
+    "cnpj": {
+     "tipo": "cnpj",
+     "preenchida": 91.2,
+     "distintos": 216,
+     "validos": 229,
+     "dv_errado": 0,
+     "vazios": 22,
+     "formatos": [
+      "99999999999999"
+     ],
+     "repetidos": 13,
+     "grupos_matriz_filial": 6
+    },
+    "endereco_cobranca": {
+     "tipo": "endereco",
+     "preenchida": 100,
+     "distintos": 236,
+     "formatos": 24,
+     "maiusc_e_minusc": false
+    },
+    "data_cadastro": {
+     "tipo": "data",
+     "preenchida": 100,
+     "distintos": 155
+    },
+    "lote_importacao": {
+     "tipo": "categoria",
+     "preenchida": 62.5,
+     "distintos": 9,
+     "valores": [
+      "IMP-CRM-2024-01",
+      "IMP-CRM-2024-02",
+      "IMP-CRM-2024-03",
+      "IMP-CRM-2024-06",
+      "IMP-CRM-2024-07",
+      "IMP-CRM-2024-08",
+      "IMP-CRM-2024-09",
+      "IMP-CRM-2024-04",
+      "IMP-CRM-2024-05"
+     ],
+     "marca_de_importacao": {
+      "preenchida": 62.5,
+      "exemplos": [
+       "IMP-CRM-2024-01",
+       "IMP-CRM-2024-02",
+       "IMP-CRM-2024-03",
+       "IMP-CRM-2024-06",
+       "IMP-CRM-2024-07"
+      ]
+     }
+    }
+   }
+  },
+  {
+   "nome": "erp_notas.csv",
+   "tipo": "tabela",
+   "formato": "CSV separado por \";\"",
+   "registros": 2832,
+   "colunas": {
+    "nf": {
+     "tipo": "id",
+     "preenchida": 100,
+     "distintos": 2832,
+     "repetidos": 0
+    },
+    "cod_erp": {
+     "tipo": "numero",
+     "preenchida": 100,
+     "distintos": 251,
+     "repetidos": 2581
+    },
+    "emissao": {
+     "tipo": "data",
+     "preenchida": 100,
+     "distintos": 12
+    },
+    "vencimento": {
+     "tipo": "data",
+     "preenchida": 100,
+     "distintos": 12
+    },
+    "valor": {
+     "tipo": "valor",
+     "preenchida": 100,
+     "distintos": 2827
+    },
+    "situacao": {
+     "tipo": "categoria",
+     "preenchida": 100,
+     "distintos": 3,
+     "valores": [
+      "PAGA",
+      "EM ABERTO",
+      "ATRASADA"
+     ]
+    }
+   }
+  }
+ ],
+ "cruzamento": {
+  "ligacoes": [
+   {
+    "a": "crm.csv::empresa",
+    "b": "erp_clientes.csv::razao_social",
+    "chave": "nome",
+    "valores_em_comum": 218,
+    "cobertura_de_a": 94,
+    "cobertura_de_b": 100
+   },
+   {
+    "a": "crm.csv::cnpj",
+    "b": "erp_clientes.csv::cnpj",
+    "chave": "cnpj",
+    "valores_em_comum": 186,
+    "cobertura_de_a": 100,
+    "cobertura_de_b": 86.1
+   },
+   {
+    "a": "chamados.jsonl::empresa_digitada",
+    "b": "crm.csv::empresa",
+    "chave": "nome",
+    "valores_em_comum": 170,
+    "cobertura_de_a": 64.6,
+    "cobertura_de_b": 73.3
+   },
+   {
+    "a": "chamados.jsonl::empresa_digitada",
+    "b": "erp_clientes.csv::razao_social",
+    "chave": "nome",
+    "valores_em_comum": 166,
+    "cobertura_de_a": 63.1,
+    "cobertura_de_b": 76.1
+   },
+   {
+    "a": "crm.csv::email",
+    "b": "emails.jsonl::de",
+    "chave": "email",
+    "valores_em_comum": 166,
+    "cobertura_de_a": 66.4,
+    "cobertura_de_b": 61.7
+   }
+  ],
+  "chaves_estrangeiras": [
+   {
+    "coluna": "erp_notas.csv::cod_erp",
+    "aponta_para": "erp_clientes.csv::cod_erp",
+    "valores_distintos": 251,
+    "orfaos": 0
+   }
+  ],
+  "copias": [
+   {
+    "campo": "crm.csv::endereco",
+    "igual_a": "erp_clientes.csv::endereco_cobranca",
+    "pares_comparados": 186,
+    "identicos": 87.6,
+    "leitura": "cópia confirmada pela marca de importação: concordar entre si não confirma nada"
+   }
+  ],
+  "documentos": [
+   {
+    "fonte": "contratos/",
+    "documentos": 210,
+    "ligam_por_chave": 191,
+    "ligam_so_por_nome": 19,
+    "sem_ligacao_evidente": 0,
+    "cnpjs_citados_que_existem_no_cadastro": 191,
+    "cnpjs_citados": 210
+   }
+  ]
+ },
+ "riscos": [
+  {
+   "gravidade": "alta",
+   "onde": "crm.csv::empresa",
+   "problema": "16 nomes que servem para mais de um registro",
+   "consequencia": "perguntas por nome precisam avisar a ambiguidade em vez de escolher"
+  },
+  {
+   "gravidade": "alta",
+   "onde": "crm.csv::cnpj",
+   "problema": "13 CNPJ com dígito verificador errado",
+   "consequencia": "esses registros não ligam por CNPJ a nada; ou se corrige com regra conservadora, ou viram pendência"
+  },
+  {
+   "gravidade": "alta",
+   "onde": "crm.csv::cnpj",
+   "problema": "50 registros sem CNPJ (18.9%)",
+   "consequencia": "só ligam por e-mail, telefone ou nome; nome sozinho é a maior fonte de erro silencioso"
+  },
+  {
+   "gravidade": "alta",
+   "onde": "crm.csv::cnpj",
+   "problema": "6 grupos matriz/filial (mesma raiz de CNPJ)",
+   "consequencia": "pergunta que cita só o nome fantasia pode cair na unidade errada sem ninguém perceber"
+  },
+  {
+   "gravidade": "alta",
+   "onde": "crm.csv::contato",
+   "problema": "45 nomes que servem para mais de um registro",
+   "consequencia": "perguntas por nome precisam avisar a ambiguidade em vez de escolher"
+  },
+  {
+   "gravidade": "alta",
+   "onde": "erp_clientes.csv::razao_social",
+   "problema": "18 nomes que servem para mais de um registro",
+   "consequencia": "perguntas por nome precisam avisar a ambiguidade em vez de escolher"
+  },
+  {
+   "gravidade": "alta",
+   "onde": "erp_clientes.csv::cnpj",
+   "problema": "22 registros sem CNPJ (8.8%)",
+   "consequencia": "só ligam por e-mail, telefone ou nome; nome sozinho é a maior fonte de erro silencioso"
+  },
+  {
+   "gravidade": "alta",
+   "onde": "erp_clientes.csv::cnpj",
+   "problema": "6 grupos matriz/filial (mesma raiz de CNPJ)",
+   "consequencia": "pergunta que cita só o nome fantasia pode cair na unidade errada sem ninguém perceber"
+  },
+  {
+   "gravidade": "alta",
+   "onde": "erp_clientes.csv::lote_importacao",
+   "problema": "marca de importação presente em 62.5% dos registros (ex.: IMP-CRM-2024-01, IMP-CRM-2024-02, IMP-CRM-2024-03, IMP-CRM-2024-06, IMP-CRM-2024-07)",
+   "consequencia": "parte desta fonte é cópia de outra: concordância entre as duas não é confirmação"
+  },
+  {
+   "gravidade": "media",
+   "onde": "crm.csv::cnpj",
+   "problema": "15 CNPJ aparecem em mais de um registro",
+   "consequencia": "duplicata na mesma fonte: a camada precisa fundir, e o sistema de origem vai continuar criando"
+  },
+  {
+   "gravidade": "media",
+   "onde": "crm.csv::email",
+   "problema": "83 e-mails de provedor genérico (33.2% dos distintos)",
+   "consequencia": "o domínio não identifica a empresa; só o endereço exato liga"
+  },
+  {
+   "gravidade": "media",
+   "onde": "emails.jsonl::de",
+   "problema": "147 e-mails de provedor genérico (54.6% dos distintos)",
+   "consequencia": "o domínio não identifica a empresa; só o endereço exato liga"
+  },
+  {
+   "gravidade": "media",
+   "onde": "erp_clientes.csv::cnpj",
+   "problema": "13 CNPJ aparecem em mais de um registro",
+   "consequencia": "duplicata na mesma fonte: a camada precisa fundir, e o sistema de origem vai continuar criando"
+  },
+  {
+   "gravidade": "media",
+   "onde": "crm.csv::endereco",
+   "problema": "87.6% igual a erp_clientes.csv::endereco_cobranca em 186 registros ligados por chave",
+   "consequencia": "cópia confirmada pela marca de importação: concordar entre si não confirma nada"
+  },
+  {
+   "gravidade": "media",
+   "onde": "contratos/",
+   "problema": "19 de 210 documentos só ligam a um cadastro pelo nome",
+   "consequencia": "é onde o erro silencioso acontece: nome parecido de cliente diferente"
+  },
+  {
+   "gravidade": "baixa",
+   "onde": "crm.csv::cnpj",
+   "problema": "2 formatos de escrita (99.999.999/9999-99, 99999999999999)",
+   "consequencia": "normalizar antes de comparar; igualdade de texto cru perde ligações"
+  },
+  {
+   "gravidade": "baixa",
+   "onde": "crm.csv::endereco",
+   "problema": "38 padrões de escrita de endereço",
+   "consequencia": "comparar endereço exige normalizar logradouro, número e cidade"
+  },
+  {
+   "gravidade": "baixa",
+   "onde": "erp_clientes.csv::endereco_cobranca",
+   "problema": "24 padrões de escrita de endereço",
+   "consequencia": "comparar endereço exige normalizar logradouro, número e cidade"
+  }
+ ],
+ "segundos": 0.106
+}
